@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
+import { faFacebook, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-header',
@@ -6,8 +8,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  faFacebook = faFacebook;
+  faLinkedin = faLinkedin;
+  faInstagram = faInstagram;
 
-  constructor() { }
+  constructor() {
+    
+  }
 
   ngOnInit(): void {
   }

@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-right: 100px;
+  height: 5.5rem;
+
+  background-color: #201f1f;
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header .logo {
+  max-height: 400px;
+}
+
+.header .menu ul {
+  display: flex;
+  flex-direction: row;
+  padding-left: 25px;
+}
+
+.header .menu ul li {
+  list-style-type: none;
+}
+
+.header .menu ul .item-menu:hover {
+  border-bottom-style: solid;
+  border-bottom-color: blueviolet;
+  border-bottom-width: 1px;
+  transition: all 0.7s ease;
+}
+
+.header .menu ul .workaround:hover {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.header .menu a {
+  padding: 25px;
+}
+
+.header .menu a:hover {
+  color: blueviolet;
+  transition: all 0.7s ease;
+}
+
+.header .menu i {
+  padding-right: 5px;
+}
